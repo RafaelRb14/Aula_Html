@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3 </title>
+    <link rel="styleheet" href='../normalize.css'>
+    <style rel="styleheet">
+        *,*:before, *after{
+            -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+ }
+
+    .menu-select{
+        float: 18px/1.4 arial,sans-serif;
+        color:  #333;
+        background: #ccc;
+
+    }
+    
+    #tudo{
+        width:100%;
+        max-width: 1200px;
+        min-width: 860px;
+        margin: 0 auto;
+        background: #fff;
+    }
+    .clear{clear:both;}
+
+    body{
+        font: 18px/1.4 arial,sans-serif;
+        color:#333;
+        background: #ccc;
+
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        color:#036;
+
+    }
+    main h1{
+        margin-top: -25px;}
+
+        .topo_hearder{
+            background: #036;
+            padding: 5px 20px;
+        }
+
+    
+    .topo_hearder h1{
+        font-size: 36px;
+        margin: 4px 0 2px 0;
+    }
+
+
+    .topo_hearder a{
+        color: #fff;
+        text-decoration: none;
+    }
+        
+    .topo_hearder h2{
+        font-size: 20px;
+        margin: 2px 0 4px 0;
+        color: #fff;
+    }
+
+    .principal{
+        width: 100%;
+        padding: 20px 15px ;
+    }
+
+    .rodape{
+        background: #036;
+        color: #fff;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    pre{font-size: 14px;}
+
+    @media(max-width:1040px ){
+        pre{font-size: 12px;}
+    }
+    
+    /* campo de formularios*/
+
+
+    button, select, .bck{
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    label[for="msg"]{
+        display: block;
+    }
+    </style>
+</head>
+
+<body class="topo">
+    <div id="tudo">
+        <div class="topo">
+            <header class="topo_hearder">
+                <hgroup><h1> <a href="/"> formulario 2 </a></h1>
+                    <h2> Elementos e Atributos</h2>
+                </hgroup>
+            </header>
+        </div> <!--.topo-->
+
+
+        <div class="principal">
+            <main>
+                <section>
+                    <h1> Elementos input</h1>
+
+                    <form action="" method="">
+                        <p>
+
+                            <label> nome:
+                                <input type="text" name="nome" required>
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> hidden:
+                                <input type="hidden" name="ip">
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> busca:
+                                <input type="search" name="q" >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> telefone:
+                                <input type="tel" name="tel" required>
+                            </label>
+                        </p>
+
+                        
+                        <p>
+
+                            <label> URL:
+                                <input type="URL" name="URL" required>
+                            </label>
+                        </p>
+
+                        
+                        <p>
+
+                            <label> Email:
+                                <input type="email" name="email" required >
+                            </label>
+                        </p>
+
+                        
+                        <p>
+
+                            <label> Senha:
+                                <input type="password" name="Senha" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Senha:
+                                <input type="password" name="Senha" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Data:
+                                <input type="date" name="Data" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Hora:
+                                <input type="time" name="Hora" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Numero:
+                                <input type="number" name="Numerio" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Intervalo:
+                                <input type="range" name="Faixa" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> Cor:
+                                <input type="color" name="Cor" required >
+                            </label>
+                        </p>
+
+                        <p>
+
+                            <label> 
+                                <input type="checkbox" name="abc" >Vermelho
+                            </label>
+                        </p>
+                        
+                        
+                        <p>
+
+                            <label> 
+                                <input type="radio" name="cde" >Sim
+                            </label>
+                        </p> 
+
+                        <label> Arquivo:
+                            <input type="file" name="Arquivo" required >
+                        </label>
+                    </p>
+
+                        <p>
+                        <input type="submit" value="Enviar"  >
+
+                    
+                    </p>
+
+                    <p>
+                        <input type="image" src="images.jpg" value="botão" height="50" width="50"  >
+
+                    
+                    </p>
+                
+                    <p>
+                        <input type="reset" value="Limpar"  >
+
+                    
+                    </p>
+
+                    <p>
+                        <input type="button" value="ok"  >
+
+                    
+                    </p>
+
+                    </form>
+
+                </section>
+            </main>
+        </div>
+        <div class="rodape">
+            <footer>
+                <small>Pagina Desenvolvida por Rafael Ribeiro</small>
+            </footer>
+        </div> <!--/.rodape-->
+
+    </div>
+
+</address>
+
+<a href="rafael_ribeiro151@estudante.sesisenai.org.br">Email aluno Rafael</a>
+</body>
+</html>
